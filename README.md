@@ -18,7 +18,7 @@ dmenu-drag-and-drop - dmenu drag and drop - select files to drag and drop with d
 Written by Zachary Schlitt \<ztschlitt@gmail.com\>
 
 # INSTALL
-git clone https://github.com/ZakharEl/dmenu_file.git. cd into the directory you cloned in to and sudo make install. Must have dmenu and realpath or it will throw an error.
+git clone https://github.com/ZakharEl/dmenu-drag-and-drop.git. cd into the directory you cloned in to and sudo make install. Must have dmenu_file and dragon-drag-and-drop or it will throw an error.
 
 # LICENSE
 
