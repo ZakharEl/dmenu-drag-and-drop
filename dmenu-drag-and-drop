@@ -3,7 +3,7 @@ pidof dmenu &>/dev/null && exit
 f="$1"
 while :
 do
-	f="$(dmenu_file "$f")" || break
+	f="$(dmenu-file "$f")" || break
 	echo "$f"
 	f="$(dirname "$f")"
 done | xargs dragon-drag-and-drop -a -x

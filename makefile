@@ -1,5 +1,5 @@
 test:
-	which dmenu_file
+	which dmenu-file
 	which dragon-drag-and-drop
 install: test
 	cp dmenu-drag-and-drop /usr/local/bin

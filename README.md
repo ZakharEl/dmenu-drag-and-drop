@@ -11,14 +11,14 @@ dmenu-drag-and-drop - dmenu drag and drop - select files to drag and drop with d
 
 # DESCRIPTION
 
-**dmenu-drag-and-drop** when called will repeatively call dmenu_file with its one and only argument being passed off to dmenu_file the first time around. It will continue to do so until the escape key is pressed. Then all the files that have been selected will be passed of to dragon-drag-and-drop to be draged and dropped collectively into a program.
+**dmenu-drag-and-drop** when called will repeatively call dmenu-file with its one and only argument being passed off to dmenu-file the first time around. It will continue to do so until the escape key is pressed. Then all the files that have been selected will be passed of to dragon-drag-and-drop to be draged and dropped collectively into a program.
 
 # AUTHORS
 
 Written by Zachary Schlitt \<ztschlitt@gmail.com\>
 
 # INSTALL
-git clone https://github.com/ZakharEl/dmenu-drag-and-drop.git. cd into the directory you cloned in to and sudo make install. Must have dmenu_file and dragon-drag-and-drop or it will throw an error.
+git clone https://github.com/ZakharEl/dmenu-drag-and-drop.git. cd into the directory you cloned in to and sudo make install. Must have dmenu-file and dragon-drag-and-drop or it will throw an error.
 
 # LICENSE
 
@@ -26,4 +26,4 @@ MIT
 
 # SEE ALSO
 
-**dmenu**(1), **dragon-drag-and-drop**(1), **dmenu_file**(1)
+**dmenu**(1), **dragon-drag-and-drop**(1), **dmenu-file**(1)
